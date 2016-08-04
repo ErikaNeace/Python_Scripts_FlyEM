@@ -1,5 +1,8 @@
 #!/bin/env
 """
+08/16: This script filters for verified only, will have to update the default username in the if statement to do that.
+    Also adds "Multi" tag to tbars marked Multi in Neutu.
+
 06/16: line 110, 111 to export only tbars that have been verified
 
 export synapses from dvid into annotations synapse json format
