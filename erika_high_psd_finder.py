@@ -8,9 +8,14 @@ count tbars
 
 count psds for each tbar
 
-print minimum psds for a tbar
+if psds <12, skip
 
-print maximum psds for a tbar
+print minimum psds for high tbar
+
+print maximum psds for high tbar
+
+generate histogram
+
 
 '''
 #--------------------------imports------------------------------
@@ -69,7 +74,7 @@ if __name__ == '__main__':
 		parray.append(len(part))
 		
 
-	high_tbar = 0
+	
 
 	# if int(len(part)) < 12:
 	# 	continue
